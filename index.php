@@ -4,28 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php include 'partes/css.php' ?>
     <title>Reutilizar</title>
-    <link rel="stylesheet" href="resources\css\bootstrap.min.css">
-    <link rel="stylesheet" href="./resources/css/bootstrap-icons/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./resources/css/main.css">
 </head>
 
 <body>
     <!-- encabezado -->
-    <div class="row mt-5">
-        <div class="col-sm-12 col-md-6">
-            <h1 class="text-center">EN LÍNEA</h1>
-        </div>
-        <div class="col-sm-12 col-md-6">
-            <p class="text-right pr-5 ">SOLUCIONES MUNDIALES</p>
-        </div>
-    </div>
-    <!-- fin de encabezado -->
-
-    <div class="row">
-        <div class="col-sm-12">
-            <img class="w-100" style="height: 350px;" src="./resources/img/baner01.PNG" alt="">
-        </div>
+    <?php include 'partes/header.php'?>
     </div>
     <div class="container mt-4 ">
         <h1 class="h1">SOLUCIONES CREATIVAS</h1>
@@ -69,10 +54,7 @@
             </div>
         </div>
     </div>
-    <footer class="bg-vine">
-        <p class="p-5 text-white">edificio IDEX PJ, Jr. Amazonas 120 - chachapoyas Chachapoyas -Amazonas. </p>
-    </footer>
-
+    <?php include 'partes/footer.php'?>
 </body>
 
 </html>
