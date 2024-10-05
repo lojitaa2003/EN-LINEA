@@ -46,7 +46,7 @@
                     <div class="card-body">
                         <img class="w-100" src="./resources/img/idea_03.PNG" alt="">
                         <h5 class="h5">
-                            <i class="bi bi-plus-square-fill"></i>EDICION
+                            <i class="bi bi-plus-square-fill"></i>EDICION DE LIBROS
                         </h5>
                         <P>Que el producto final llegue a tus clientes</P>
                     </div>
